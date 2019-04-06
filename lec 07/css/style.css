@@ -1,21 +1,31 @@
 
 
 .box {
-    border: 5px solid blue;
+    border: 10px solid Red;
     display: inline-block;
-    padding: 5px 20px 5px 20px;
-    margin: 0 20px;
-    width: 50px;
+    color: red;
+    padding: 20px 30px 15px 50px;
+    margin: 60px 60px;
+    width: 100px;
     height: 100px;
 }
 
 .highlight {
-    font-size: 150%;
-    word-spacing: 10px;
-    line-height: 50px;
-    text-decoration: underline;
-    font-weight: bold;
-    font-style: italic;
-    font-family: 'Caveat', cursive;
+    font-size: 100px%;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: large;
+    font-family: 'Pacifico', cursive;
     letter-spacing: 5px;
+}
+
+h1{
+    text-align: center;
+    color: deeppink;
+}
+
+body{
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/64/31/forest-cartoon-background-vector-4006431.jpg");
+    background-repeat: no-repeat;
+    background-size: 1366px 900px;
 }
