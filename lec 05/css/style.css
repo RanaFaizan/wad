@@ -27,6 +27,27 @@ header li {
     display: inline-block;
 }
 
+.image_settings{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.image_settings:hover{
+    box-shadow: 10px 8px 5px black;
+    cursor: pointer;
+}
+
+.image_settings:active{
+    transform: translate(10px , 8px);
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer;
+}
+
+
+
+
 /*
 p {
     color: blue;
