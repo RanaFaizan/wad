@@ -4,6 +4,9 @@ h1 {
 }
 
 .robots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .head,
@@ -24,7 +27,9 @@ h1 {
 }
 
 .eyes {
-
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
 }
 
 .head:hover {
@@ -85,7 +90,8 @@ h1 {
 }
 
 .right_leg {
-    margin-left: 30px;
+    margin-left: 110px;
+    margin-top: -120px;
 }
 
 .left_eye, .right_eye {
@@ -106,8 +112,8 @@ h1 {
 
 .right_eye {
     position: relative;
-    top: 100px;
-    left: 120px;
+    top: 81px;
+    left: 135px;
 }
 
 
